@@ -13,16 +13,24 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="card w-50">
+    <div class="card d-grid col-3 mx-auto my-2">
       <div class="card-body">
-        <div class="top" id="suit">Div de arriba</div>
-        <div class="number d-flex justify-content-center" id="number">
-          Div del centro
-        </div>
-        <div class="bottom d-flex justify-content-end" id="suit2">
-          Div de abajo
-        </div>
+        <div class="top pb-4" id="suit"></div>
+        <div
+          class="number d-flex justify-content-center py-5"
+          id="number"
+        ></div>
+        <div class="bottom d-flex pb-4" id="suit2"></div>
       </div>
+    </div>
+    <div class="d-grid col-2 mx-auto">
+      <button
+        class="btn btn-light"
+        type="button"
+        onClick="window.location.reload();"
+      >
+        Refresh Page
+      </button>
     </div>
   </body>
 </html>

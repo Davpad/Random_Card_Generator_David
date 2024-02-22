@@ -4,3 +4,11 @@ body {
   background-color: green;
   /* color: red; */
 }
+
+#suit2 {
+  transform: rotate(180deg);
+}
+
+.card {
+  font-size: 500%;
+}
